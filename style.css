@@ -1,0 +1,94 @@
+h3 {
+    font-family: MyWebFont;
+}
+
+.league-gothic {
+    font-family: league_gothicregular;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+.geobats {
+    font-family: geobats;
+}
+
+
+/*
+*
+*   GEOBATS
+*
+*/
+
+@font-face {
+    font-family: "geobats";
+    src: url('assets/fonts/geobats/geobats.ttf');
+}
+
+
+/*
+*
+*   ALEX BRUSH
+*
+*/
+
+@font-face {
+    font-family: 'MyWebFont';
+    /*src: url('WebFont.eot');*/
+    /*src: url('WebFont.eot?#iefix') format('embedded-opentype'),*/
+    /*url('WebFont.woff') format('woff'),*/
+    src: url('assets/fonts/AlexBrush-Regular.ttf');
+    /*url('WebFont.svg#webfont') format('svg');*/
+}
+
+
+/*
+*
+*   LEAGUE GOTHIC
+*
+*/
+
+@font-face {
+    font-family: 'league_gothiccondensed_italic';
+    src: url('assets/fonts/leaguegothic-condenseditalic-webfont.woff2') format('woff2'),
+    url('assets/fonts/leaguegothic-condenseditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('assets/fonts/leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+    url('assets/fonts/leaguegothic-condensedregular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'league_gothicitalic';
+    src: url('assets/fonts/leaguegothic-italic-webfont.woff2') format('woff2'),
+    url('assets/fonts/leaguegothic-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('assets/fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
