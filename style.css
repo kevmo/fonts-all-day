@@ -1,17 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Slackey');
+@import url('https://fonts.googleapis.com/css?family=Diplomata');
+@import url('https://fonts.googleapis.com/css?family=Plaster');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica');
+
+body > * {
+    margin: 50px;
+    font-size: 50px;
+}
+
 h3 {
     font-family: MyWebFont;
+    word-spacing: -15px;
+}
+
+.double-pica {
+    font-family: "IM Fell Double Pica";
+    font-variant: small-caps;
+}
+
+.plaster {
+    font-family: Plaster;
+    letter-spacing: 15px;
+    word-spacing: 30px;
+
+}
+
+.slackey {
+    font-family: Slackey;
+}
+
+.diplomata {
+    font-family:diplomata;
+    word-spacing: 40px;
+    letter-spacing: 30px;
 }
 
 .league-gothic {
     font-family: league_gothicregular;
-    font-size: 24px;
     text-transform: uppercase;
 }
 
 
 .geobats {
     font-family: geobats;
+    font-size: inherit;
 }
+
+.cursive {
+    font-family: cursive;
+}
+
+.bungee {
+    font-family: bungee, cursive;
+
+    font-size: 50px;
+}
+
+.amatic {
+    font-family: 'Amatic SC';
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.drudge {
+    font-family: monospace;
+    font-size: 50px;
+    /*text-decoration: blink;*/
+    text-decoration: overline underline;
+}
+
+/*
+BLINK
+*/
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+.rock-salt {
+    font-family: 'Rock Salt', cursive;
+}
+
+
+/*
+*
+*   FONT FACE DIRECTIVES
+*
+*/
+
 
 
 /*
