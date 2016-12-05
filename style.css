@@ -65,10 +65,28 @@ h3 {
 
 .drudge {
     font-family: monospace;
-    font-size: 50px;
     /*text-decoration: blink;*/
     text-decoration: overline underline;
 }
+
+.drudge-logo {
+    font-family: league_gothiccondensed_italic;
+    font-size: 80px;
+    /*font-style: italic;*/
+    /*font-weight: 900;*/
+    letter-spacing: 10px;
+    text-shadow: -10px -4px 1px grey;
+
+}
+
+.samuel {
+    font-size: inherit;
+    line-height: 25px;
+    margin-bottom: 150px;
+
+}
+
+
 
 /*
 BLINK
