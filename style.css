@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Diplomata');
 @import url('https://fonts.googleapis.com/css?family=Plaster');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica');
+@import url('https://fonts.googleapis.com/css?family=Play');
 
 body > * {
     margin: 50px;
@@ -84,6 +85,18 @@ h3 {
     line-height: 25px;
     margin-bottom: 150px;
 
+    text-align: justify;
+    text-indent: -20px;
+}
+
+.samuel:first-letter {
+    font-size: 50px;
+    background: black;
+    color: white;
+}
+
+.samuel:first-line {
+    color: red;
 }
 
 
@@ -194,3 +207,72 @@ BLINK
     font-style: normal;
 
 }
+
+/*
+*
+*  Lists
+*
+*/
+
+.list {
+    font-family: Play;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: square;
+
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li.disc {
+    list-style-type: disc;
+}
+
+li.circle {
+    list-style-type: circle;
+}
+
+li.lol {
+    list-style-image: url('assets/bullet.gif')!important;
+    margin-left: 300px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+
+    list-style-position: inside;
+}
+
+li.one{
+    list-style-type: decimal;
+}
+
+li.three{
+    list-style-type: upper-alpha;
+}
+
+li.four{
+    list-style-type: lower-alpha;
+}
+
+li.five {
+    list-style-type: upper-roman;
+}
+
+li.six {
+    list-style-type: lower-roman;
+}
+
+.best-rappers li {
+    list-style-type: none;
+    counter-increment: item;
+}
+
+.best-rappers li:before {
+    content: counter(item) ". ";
+    color: red;
+}
+
+
